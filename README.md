@@ -1,5 +1,5 @@
 # Packer By Example
-This repository documents working examples of packer building vm images for various applications.
+This repository documents working examples of packer building VM images for various applications.
 
 The stucture of the examples are;
 ```
@@ -11,7 +11,7 @@ For example, NGINX running on Centos 7, installed via ansible-local, for Google 
 ./gcp/centos-7/ansible-remote/nginx
 ```
 
-# Popular Examples
+## Popular Examples
 [azure/windows-server-2016/ansible-remote/soe](./azure/windows-server-2016/ansible-remote/soe)
 
 ## Github Actions
