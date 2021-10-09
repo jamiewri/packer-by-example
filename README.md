@@ -12,7 +12,7 @@ For example, NGINX running on Centos 7, installed via ansible-local, for Google 
 ```
 
 # Popular Examples
-[azure/windows-server-2016/ansible-remote/soe](./azure/windows-server-2016/ansible-remote/soe/README.md)
+[azure/windows-server-2016/ansible-remote/soe](./azure/windows-server-2016/ansible-remote/soe)
 
 ## Github Actions
 - Runs `packer validate -syntax-only`
