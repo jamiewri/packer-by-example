@@ -12,7 +12,7 @@ source "azure-arm" "windows-2016" {
   # Name of the image once built
   managed_image_name                = "windows-server-2016"
 
-  # Name of the resource group that the finish images will exist in
+  # Name of the resource group that the finished images will exist in
   managed_image_resource_group_name = var.managed_image_resource_group_name
 
   
@@ -25,7 +25,7 @@ source "azure-arm" "windows-2016" {
   # Misc
   communicator                      = "winrm"
 
-  # The default vm size `Standard_A1` takes an actual life time to build, changed to 2vcpu7
+  # The default vm size `Standard_A1` takes an actual life time to build, changed to 2vcpu7gb
   vm_size                           = "Standard_D2_v2"
   custom_data_file                  = "scripts/enableWinRM.ps1"
 

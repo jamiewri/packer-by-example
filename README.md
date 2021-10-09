@@ -11,13 +11,18 @@ For example, NGINX running on Centos 7, installed via ansible-local, for Google 
 ./gcp/centos-7/ansible-remote/nginx
 ```
 
+# Popular Examples
+[azure/windows-server-2016/ansible-remote/soe](./azure/windows-server-2016/ansible-remote/soe/README.md)
+
 ## Github Actions
 - Runs `packer validate -syntax-only`
 
 ## Acceptance criteria
+- Configuration must be abstracted into env vars.
+- Running `packer build .` in a packer working directory should complete sucessfully.
 - Packer file must be named `packer.pkr.hcl`
-- Packer file must be in HCL format.
-- Single packer file per example directory.
+- Variables file must be named `variables.pkr.hcl`
+- Packer files must be in HCL format.
 - All directories and file names should be lower case.
 - Credentials must be passed as well known env vars, nothing statically configured.
 

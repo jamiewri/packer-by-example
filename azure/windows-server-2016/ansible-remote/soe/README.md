@@ -5,7 +5,7 @@
 - `ARM_CLIENT_ID`
 - `ARM_CLIENT_SECRET`
 - `ARM_SUBSCRIPTION_ID`
-- `MANAGED_IMAGE_RESOURCE_GROUP_NAME` -  a name of a resource gorup that already exists
+- `MANAGED_IMAGE_RESOURCE_GROUP_NAME` -  a name of a resource group that already exists to save the finished image into.
 
 ## Tested packer version
 `Packer v1.6.6`
