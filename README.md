@@ -1,5 +1,5 @@
 # Packer By Example
-This repository documents working examples of packer building vm images for various applications.
+This repository documents working examples of packer building VM images for various applications.
 
 The stucture of the examples are;
 ```
@@ -11,8 +11,8 @@ For example, NGINX running on Centos 7, installed via ansible-local, for Google 
 ./gcp/centos-7/ansible-remote/nginx
 ```
 
-# Popular Examples
-[azure/windows-server-2016/ansible-remote/soe](./azure/windows-server-2016/ansible-remote/soe/README.md)
+## Popular Examples
+[azure/windows-server-2016/ansible-remote/soe](./azure/windows-server-2016/ansible-remote/soe)
 
 ## Github Actions
 - Runs `packer validate -syntax-only`
@@ -37,11 +37,11 @@ For example, NGINX running on Centos 7, installed via ansible-local, for Google 
 | `.ps1`  | Windows Powershell  |
 | `.yaml` | Any yaml file (not `.yml`) |
 
-## Packer build directories well known files and directories
+## Well known directories and file names
 | Directory | Description |
 | --------- | ----------- |
-| README.md | Readme for this packer build directory only. | 
-| `packer.pkr.hcl | Packer build file |
+| `README.md` | Readme for this packer build directory only. | 
+| `packer.pkr.hcl` | Packer build file |
 | `variables.pkr.hcl` | All configuration should be set with environement variables as the default value. e.g. `env("foo")` |
 | `./ansible` | Working directory for Ansible, including roles, dependancies etc. |
 | `./scripts` | Contains any scripts needed for build, e.g. Cloud-init, shell, bash, powershell |
