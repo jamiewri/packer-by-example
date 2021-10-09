@@ -2,7 +2,7 @@ variable "ssh_user" {
   type    = string
   default = "packer"
 }
-something else
+
 source "googlecompute" "vault" {
   image_name   = "vault-enterprise-soe-1-8-2"
   project_id   = "devopstower"

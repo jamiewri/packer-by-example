@@ -23,3 +23,20 @@ For example, NGINX running on Centos 7, installed via ansible-local, for Google 
 
 ## Other notes
 - The acceptance tests whitelists the name of the cloud providers, operating systems and provisioners.
+
+## File extensions
+| Extension  | Description |
+| ------------- | ------------- |
+| `.pkr.hcl`  | Packer file in HCL |
+| `.sh`  | Shell script  |
+| `.ps1`  | Windows Powershell  |
+| `.yaml` | Any yaml file (not `.yml`) |
+
+## Packer build directories well known files and directories
+| Directory | Description |
+| --------- | ----------- |
+| README.md | Readme for this packer build directory only. | 
+| `packer.pkr.hcl | Packer build file |
+| `variables.pkr.hcl` | All configuration should be set with environement variables as the default value. e.g. `env("foo")` |
+| `./ansible` | Working directory for Ansible, including roles, dependancies etc. |
+| `./scripts` | Contains any scripts needed for build, e.g. Cloud-init, shell, bash, powershell |

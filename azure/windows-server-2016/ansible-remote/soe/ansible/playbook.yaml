@@ -1,0 +1,8 @@
+---
+- name: Run hello world to test Ansible
+  hosts: all
+  gather_facts: no
+  tasks:
+
+    - name: Ping windows machine
+      win_command: cmd.exe /c powershell -Command "Write-Host 'Hello World!'"---
