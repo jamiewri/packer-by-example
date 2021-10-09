@@ -41,7 +41,7 @@ For example, NGINX running on Centos 7, installed via ansible-local, for Google 
 | Directory | Description |
 | --------- | ----------- |
 | README.md | Readme for this packer build directory only. | 
-| `packer.pkr.hcl | Packer build file |
+| `packer.pkr.hcl` | Packer build file |
 | `variables.pkr.hcl` | All configuration should be set with environement variables as the default value. e.g. `env("foo")` |
 | `./ansible` | Working directory for Ansible, including roles, dependancies etc. |
 | `./scripts` | Contains any scripts needed for build, e.g. Cloud-init, shell, bash, powershell |
