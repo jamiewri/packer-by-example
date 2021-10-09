@@ -37,7 +37,7 @@ For example, NGINX running on Centos 7, installed via ansible-local, for Google 
 | `.ps1`  | Windows Powershell  |
 | `.yaml` | Any yaml file (not `.yml`) |
 
-## Packer build directories well known files and directories
+## Well known directories and file names
 | Directory | Description |
 | --------- | ----------- |
 | README.md | Readme for this packer build directory only. | 
