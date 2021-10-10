@@ -10,7 +10,7 @@
 ## Tested packer version
 `Packer v1.6.6`
 
-## Proof this works
+## Example build
 ```
  packer build .
 azure-arm.windows-2016: output will be in this color.
