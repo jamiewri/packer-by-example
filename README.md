@@ -13,7 +13,9 @@ For example, NGINX running on Centos 7, installed via ansible-local, for Google 
 
 ## Popular Examples
 - [azure/windows-server-2016/ansible-remote/soe](./azure/windows-server-2016/ansible-remote/soe)
+- [azure/centos-8/ansible-local/apache](./azure/centos-8/ansible-local/apache)
 - [gcp/centos-8/ansible-local/soe](./gcp/centos-8/ansible-local/soe)
+
 
 ## Github Actions
 - Runs `packer validate -syntax-only`

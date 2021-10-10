@@ -1,0 +1,17 @@
+---
+- name: Configure Webserver
+  hosts: localhost
+  gather_facts: false
+  become: true
+  tasks:
+    - name: Install packages
+      dnf:
+        name:
+          - httpd
+          - git
+
+    - name: Start and enable httpd
+      systemd:
+        name: httpd
+        state: started
+        enabled: true
