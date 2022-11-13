@@ -1,0 +1,13 @@
+---
+- name: SOE Configuration playbook
+  hosts: localhost
+  connection: local
+  become: true
+  tasks:
+    #- name: Update all
+    #  yum:
+    #    name: '*'
+    #    state: latest
+
+    - name: Confirm completion
+      command: 'touch /root/done'
