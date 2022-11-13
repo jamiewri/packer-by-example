@@ -1,4 +1,4 @@
-# Azure - Centos 8 - Ansible Remote - Apache Web Server
+# Azure - Centos 8 - Ansible Local - Apache Web Server
 
 ## Required Env Vars
 - `ARM_TENANT_ID`

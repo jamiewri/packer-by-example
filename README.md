@@ -12,6 +12,7 @@ For example, NGINX running on Centos 7, installed via ansible-local, for Google 
 ```
 
 ## Popular Examples
+- [aws/centos-8/ansible-local/soe](./aws/centos-8/ansible-local/soe)
 - [azure/windows-server-2016/ansible-remote/soe](./azure/windows-server-2016/ansible-remote/soe)
 - [azure/centos-8/ansible-local/apache](./azure/centos-8/ansible-local/apache)
 - [gcp/centos-8/ansible-local/soe](./gcp/centos-8/ansible-local/soe)
@@ -21,7 +22,7 @@ For example, NGINX running on Centos 7, installed via ansible-local, for Google 
 - Runs `packer validate -syntax-only`
 
 ## Acceptance criteria
-- Configuration must be abstracted into env vars.
+- Configuration must be abstracted into env args or variables.pkr.hcl
 - Running `packer build .` in a packer working directory should complete sucessfully.
 - Packer file must be named `packer.pkr.hcl`
 - Variables file must be named `variables.pkr.hcl`
